@@ -16,9 +16,9 @@ cFolder = "e0"
 
 def buttonPressed(b):
     global cFolder
-    data = folderNav(cFolder,b)
-    cFolder = data[1]
-    printToLcd(data[0],"")
+    #data = folderNav(cFolder,b)
+    #cFolder = data[1]
+    #printToLcd(data[0],"")
 def sensorRefresh():
     global b1
     global b2
